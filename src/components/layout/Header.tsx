@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        isScrolled ? 'bg-white shadow-md py-2' : 'bg-white py-4'
       }`}
     >
       <div className="container mx-auto px-4">
@@ -106,12 +106,12 @@ const Header = () => {
             >
               Contact
             </Link>
-            <Link 
+            {/* <Link 
               to="/contact" 
               className="bg-blue-700 text-white px-5 py-2 rounded-md font-medium hover:bg-blue-800 transition-colors"
             >
               Get a Quote
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Mobile Menu Button */}

@@ -62,9 +62,9 @@ const ContactInfo = () => {
           </div>
         </div>
         
-        <div className="mt-10">
+        <div className="mt-10 dNone">
           <h4 className="font-semibold mb-4">Connect With Us</h4>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 ">
             <a 
               href="#"
               className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 transition-colors"

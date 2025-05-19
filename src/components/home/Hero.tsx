@@ -25,18 +25,19 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 animate-fade-in-delay-2">
-            <Link 
+            {/* <Link 
               to="/contact" 
               className="bg-accent-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-accent-600 transition-all shadow-soft flex items-center justify-center"
             >
               Get a Quote
               <ChevronRight className="ml-2" size={20} />
-            </Link>
+            </Link> */}
             <Link 
               to="/contact" 
               className="bg-white/10 backdrop-blur-sm border-2 border-white/20 text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-all flex items-center justify-center"
             >
               Contact Us
+              <ChevronRight className="ml-2" size={20} />
             </Link>
           </div>
         </div>

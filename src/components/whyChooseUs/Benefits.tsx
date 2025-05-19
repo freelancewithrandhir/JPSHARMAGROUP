@@ -1,4 +1,4 @@
-import { Clock, DollarSign, Shield, Headphones, Route, FileText } from 'lucide-react';
+import { Clock, DollarSign, Shield, Headphones, Route, FileText, IndianRupee } from 'lucide-react';
 
 const Benefits = () => {
   const benefits = [
@@ -8,7 +8,7 @@ const Benefits = () => {
       description: 'Our streamlined processes and experienced team ensure quick turnarounds, saving you valuable time.'
     },
     {
-      icon: <DollarSign size={36} />,
+      icon: <IndianRupee size={36} />,
       title: 'Save Money',
       description: 'Competitive pricing and efficient service delivery help reduce your operational costs.'
     },
