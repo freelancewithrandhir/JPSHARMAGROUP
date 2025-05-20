@@ -175,12 +175,12 @@ const Header = () => {
             >
               Contact
             </Link>
-            <Link 
+            {/* <Link 
               to="/contact" 
               className="mx-4 mt-2 bg-blue-700 text-white py-2 rounded-md font-medium hover:bg-blue-800 transition-colors text-center"
             >
               Get a Quote
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
